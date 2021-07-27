@@ -70,7 +70,7 @@ export function Home() {
 
 	const deleteAll = () => {
 		const deleteAllTasks = () => {
-			fetch("https://assets.breatheco.de/apis/fake/todos/user/mxespin", {
+			fetch("https://assets.breatheco.de/apis/fake/todos/user/alexsanchez", {
 				method: "DELETE",
 				headers: {
 					"Content-Type": "application/json"
